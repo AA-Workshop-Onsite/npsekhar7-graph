@@ -10,12 +10,6 @@ sandbox:
   enabled: true
 homepage:
   enabled: false
-
-limits:
-  max_depth: 10
-  max_height: 50
-  max_aliasas: 10
-
 cors:
   origins:
     - https://studio.apollographql.com
@@ -35,3 +29,7 @@ subscription:
 
 ## Enter Workshop Module Configs Below
 
+limits:
+  max_depth: 10
+  max_height: 50
+  max_aliasas: 10
